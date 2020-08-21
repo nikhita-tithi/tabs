@@ -1,0 +1,115 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.well {
+  background: #eeefff;
+  padding: 15px;
+}
+
+.tab {
+  background: transparent;
+  padding: 5px 15px;
+  color: #1122ff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.tab-content {
+  padding: 15px 5px;
+  background-color: #fff;
+}
+
+.tab.active {
+  outline: none;
+  background: #fff;
+  color: #000;
+  border: none;
+}
+
+.nav-tabs {
+  margin-top: 10px;
+  display: contents;
+}
+
+.add-tab-button {
+  background: none;
+  border: 1px solid black;
+  margin-left: 20px;
+}
+
+.edit-mode-button {
+  background: #1122ff;
+  color: #fff;
+}
+
+.save-button {
+  background: green;
+  color: #fff;
+}
+
+.edit-tab-name {
+  background: #1122ff;
+  color: #fff;
+}
+
+li {
+  list-style-type: none;
+}
+
+.ul {
+  display: contents !important;
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+.ul-container {
+  display: flex;
+}
+
+.deletebutton {
+  align-items: flex-end;
+  position: relative;
+  top: -5px;
+  left: 10px;
+  font-size: x-small;
+}
+
+.span-close {
+  visibility: hidden;
+}
+.span-close:hover {
+  position: relative;
+  left: 10px;
+  top: -10px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: xx-small;
+  color: red;
+}
+
+.chevadd {
+  outline: none;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.chevsub {
+  outline: none;
+  cursor: pointer;
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.content {
+  padding-bottom: 20%;
+}
